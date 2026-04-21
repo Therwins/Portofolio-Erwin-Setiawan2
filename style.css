@@ -742,9 +742,24 @@ footer p {
 }
 @media (max-width: 768px) {
     section {
-        padding-top: 30px;
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
-
+}
+@media (max-width: 768px) {
+    section h2 {
+        margin-top: 0;
+    }
+}
+@media (max-width: 768px) {
+    .about,
+    .projects,
+    .resume {
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+@media (max-width: 768px) {
     .hero {
         padding-top: 110px;
     }
