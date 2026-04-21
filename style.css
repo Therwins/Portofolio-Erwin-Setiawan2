@@ -440,9 +440,14 @@ section h2 {
 /* ================= RESUME TAB ================= */
 .resume-tabs {
   display: flex;
-  gap: 40px;
+  gap: 16px;
   margin-bottom: 40px;
   border-bottom: 1px solid #1f2937;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+.resume-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab-btn {
