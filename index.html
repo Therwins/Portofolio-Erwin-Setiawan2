@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erwin Setiawan | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">Portofolio</h1>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h3>HI THERE!</h3>
+        <!-- FOTO PROFIL -->
+        <div class="hero-avatar">
+          <img src="img/profile.jpg" alt="Erwin Setiawan" />
+        </div>
+        <h1>Erwin Setiawan</h1>
+        <h2>A Creative Front End Developer & 3D Artist</h2>
+        <p>
+          Saya adalah seorang pengembang front-end dan kreator visual 3D yang
+          memiliki ketertarikan pada desain antarmuka modern, interaksi
+          pengguna, serta visualisasi 3D. Saya senang menggabungkan estetika
+          desain dengan fungsionalitas teknologi untuk menciptakan pengalaman
+          digital yang menarik dan efektif.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+
+      <div class="about-wrapper">
+        <!-- KIRI : DATA -->
+        <div class="about-info">
+          <div class="info-item">
+            <span>Nama</span>
+            <p>Erwin Setiawan</p>
+          </div>
+          <div class="info-item">
+            <span>Bidang</span>
+            <p>Front End Developer</p>
+          </div>
+          <div class="info-item">
+            <span>Domisili</span>
+            <p>Indonesia</p>
+          </div>
+          <div class="info-item">
+            <span>Email</span>
+            <p>Therwins740@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <span>Usia</span>
+            <p>19</p>
+          </div>
+          <div class="info-item">
+            <span>No Telp</span>
+            <p>081215789120</p>
+          </div>
+          <div class="info-item">
+            <span>Status</span>
+            <p>Mahasiswa</p>
+          </div>
+        </div>
+
+        <!-- KANAN : DISCOVER -->
+        <div class="about-discover">
+          <h3>Discover</h3>
+          <p>
+            Saya adalah mahasiswa yang memiliki minat besar di bidang
+            pengembangan web dan multimedia, khususnya pada front-end
+            development dan visualisasi 3D. Saya senang menggabungkan estetika
+            desain dengan teknologi untuk menciptakan pengalaman digital yang
+            menarik dan efektif.
+          </p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="btn-download">
+        <a href="CV/Erwin-Setiawan-CV.pdf" target="_blank"> View CV </a>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services">
+      <h2>Services</h2>
+
+      <div class="service-list">
+        <div class="service-card">
+          <h3>Front End Development</h3>
+          <p>
+            Membangun tampilan website yang modern, responsif, dan mudah
+            digunakan menggunakan HTML, CSS, dan JavaScript dengan fokus pada
+            kenyamanan pengguna.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>UI/UX Design</h3>
+          <p>
+            Mendesain antarmuka website dan aplikasi dengan memperhatikan
+            estetika visual serta alur pengalaman pengguna.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Website Portfolio & Company Profile</h3>
+          <p>
+            Mengembangkan website portofolio pribadi dan company profile yang
+            profesional sesuai kebutuhan klien.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>3D Modeling & Environment</h3>
+          <p>
+            Membuat model dan environment 3D untuk kebutuhan visualisasi,
+            presentasi, dan media digital menggunakan software 3D.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="resume">
+      <h2>Resume</h2>
+
+      <!-- TAB MENU -->
+      <div class="resume-tabs">
+        <button class="tab-btn active" onclick="openTab('edu')">
+          Pendidikan
+        </button>
+        <button class="tab-btn" onclick="openTab('exp')">Pengalaman</button>
+        <button class="tab-btn" onclick="openTab('skill')">Skill</button>
+      </div>
+
+      <!-- TAB CONTENT -->
+      <div class="tab-content">
+        <!-- PENDIDIKAN -->
+        <div id="edu" class="tab-panel active">
+          <h3>S1 Teknologi Informasi</h3>
+          <span>Universitas Amikom Yogyakarta | 2024 – Sekarang</span>
+          <p>
+            Saya merupakan mahasiswa Program Studi Teknologi Informasi dengan
+            fokus pembelajaran pada pemrograman web dan animasi 3D. Selama masa
+            perkuliahan, saya mempelajari konsep serta penerapan teknologi
+            informasi yang berkaitan dengan pengembangan aplikasi berbasis web,
+            perancangan antarmuka pengguna, serta pembuatan visual digital dan
+            animasi tiga dimensi.
+          </p>
+          <p>
+            Pada bidang pemrograman web, saya mempelajari dan menerapkan
+            pembuatan website mulai dari struktur dasar, desain antarmuka,
+            hingga pengelolaan data menggunakan teknologi web modern. Saya
+            terbiasa mengerjakan proyek yang mencakup perancangan UI,
+            implementasi front end, serta integrasi dengan sistem basis data.
+          </p>
+          <p>
+            Sementara itu, pada bidang animasi dan visualisasi 3D, saya
+            mempelajari proses pembuatan objek dan environment 3D, meliputi
+            modeling, texturing, pencahayaan, dan rendering. Proyek-proyek yang
+            dikerjakan membantu saya memahami bagaimana visual 3D dapat
+            digunakan untuk media interaktif, presentasi, maupun kebutuhan
+            kreatif lainnya.
+          </p>
+          <p>
+            Melalui kombinasi antara kemampuan teknis web development dan
+            kreativitas di bidang 3D, saya terbiasa menghasilkan karya digital
+            yang tidak hanya fungsional, tetapi juga memiliki nilai estetika.
+            Saya terus mengembangkan kemampuan melalui proyek akademik, latihan
+            mandiri, serta pembuatan portofolio sebagai persiapan untuk
+            berkarier di bidang Front End Development, Creative Developer, atau
+            3D Artist.
+          </p>
+        </div>
+
+        <!-- PENGALAMAN -->
+        <div id="exp" class="tab-panel">
+          <h3>Front End Developer</h3>
+          <ul>
+            <li>Membuat website portofolio pribadi</li>
+            <li>Mengembangkan sistem rental mobil berbasis web</li>
+            <li>Mendesain UI website akademik</li>
+          </ul>
+
+          <h3>3D Artist</h3>
+          <ul>
+            <li>Membuat environment 3D bangunan dan area publik</li>
+            <li>Texturing, lighting, dan rendering objek 3D</li>
+            <li>Modeling karakter</li>
+          </ul>
+        </div>
+
+        <!-- SKILL -->
+        <div id="skill" class="tab-panel">
+          <h3>Programming & Web</h3>
+          <p>HTML, CSS, JavaScript, PHP, MySQL, Laravel / React (Dasar)</p>
+
+          <h3>Design & Multimedia</h3>
+          <p>UI/UX Design, 3D Modeling, Blender, Adobe Photoshop</p>
+
+          <h3>Soft Skill</h3>
+          <p>Problem Solving, Kerja Tim, Manajemen Waktu</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECT ===== -->
+    <section id="projects" class="projects">
+      <div id="projects" class="projects">
+        <h2>My Projects</h2>
+        <p class="section-desc">Beberapa project yang pernah saya kerjakan</p>
+
+        <!-- TAB -->
+        <div class="project-tabs">
+          <button class="tab-btn active" data-filter="all">All</button>
+          <button class="tab-btn" data-filter="web">Web</button>
+          <button class="tab-btn" data-filter="3d">3D</button>
+          <button class="tab-btn" data-filter="ui">UI</button>
+        </div>
+
+        <!-- PROJECT GRID -->
+        <div class="project-grid">
+          <div
+            class="project-card web"
+            data-title="Website Portfolio"
+            data-desc="Website portfolio pribadi dengan desain modern dan responsif."
+            data-tech="HTML, CSS, JavaScript"
+            data-img="img/project-web1.jpg"
+          >
+            <img src="img/project-web1.jpg" alt="" />
+            <h3>Website Portfolio</h3>
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+
+          <div
+            class="project-card 3d"
+            data-title="Website Portfolio"
+            data-desc="Website portfolio pribadi dengan desain modern dan responsif."
+            data-tech="HTML, CSS, JavaScript"
+            data-img="img/project-web1.jpg"
+          >
+            <img src="img/project-web1.jpg" alt="" />
+            <h3>3D Character Modeling</h3>
+            <p>Blender, Maya, 3dsMax, D5 Renderer, SketchUp</p>
+          </div>
+
+          <div
+            class="project-card ui"
+            data-title="Website Portfolio"
+            data-desc="Website portfolio pribadi dengan desain modern dan responsif."
+            data-tech="HTML, CSS, JavaScript"
+            data-img="img/project-web1.jpg"
+          >
+            <img src="img/project-web1.jpg" alt="" />
+            <h3>UI/UX</h3>
+            <p>Figma, Canva</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+      <div>
+        <h2>Get In Touch</h2>
+        <p>
+          Jika Anda tertarik untuk bekerja sama, berdiskusi, atau ingin
+          mengetahui lebih lanjut mengenai saya, jangan ragu untuk menghubungi
+          saya melalui informasi kontak di bawah ini. Saya terbuka untuk
+          berbagai kesempatan, baik itu proyek individu, kerja tim, diskusi
+          kreatif, maupun peluang pengembangan profesional. Oleh karena itu,
+          saya akan dengan senang hati merespons setiap pesan yang masuk dan
+          berusaha memberikan balasan secepat mungkin.
+        </p>
+
+        <ul>
+          <li>WhatsApp : 081215789120</li>
+          <li>Email : Therwins740@gmail.com</li>
+          <li>GitHub : -</li>
+          <li>LinkedIn : -</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <p>© 2026 Erwin Setiawan</p>
+      <p>Creative Front End Developer & 3D Artist</p>
+    </footer>
+
+    <!-- MODAL PROJECT (GLOBAL) -->
+    <div class="project-modal" id="projectModal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+
+        <img id="modalImg" src="" alt="" />
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+
+        <div class="modal-tech">
+          <strong>Tech Stack:</strong>
+          <span id="modalTech"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
