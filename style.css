@@ -742,11 +742,10 @@ footer p {
 }
 @media (max-width: 768px) {
     section {
-        padding-top: 50px;  /* lebih kecil biar naik ke atas */
-        padding-bottom: 50px;
+        padding-top: 30px;
     }
 
     .hero {
-        padding-top: 120px; /* tetap lebih besar karena navbar */
+        padding-top: 110px;
     }
 }
