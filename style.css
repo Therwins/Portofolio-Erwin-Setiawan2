@@ -403,11 +403,11 @@ section h2 {
 }
 
 .services h2 {
-  margin-top: 20px;
+  margin-top: auto;
 }
 /* ================= RESUME ================= */
 .resume h2 {
-  margin-top: 20px;
+  margin-top: auto;
   margin-bottom: 5%;
 }
 
@@ -531,7 +531,7 @@ section h2 {
 }
 /* ================= PROJECT ================= */
 .projects {
-  padding: 100px 8%;
+  padding-top: auto;
   text-align: center;
 }
 
@@ -739,23 +739,4 @@ footer p {
   .hero {
     padding-top: 90px;
   }
-}
-@media (max-width: 768px) {
-    section {
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
-}
-@media (max-width: 768px) {
-    section h2 {
-        margin-top: 0;
-    }
-}
-@media (max-width: 768px) {
-    .about,
-    .projects,
-    .resume {
-        margin-top: 100;
-        padding-top: 100;
-    }
 }
