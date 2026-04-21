@@ -519,6 +519,16 @@ section h2 {
   }
 }
 
+@media (max-width: 768px) {
+    .resume-tabs {
+        gap: 12px;
+    }
+
+    .tab-btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
 /* ================= PROJECT ================= */
 .projects {
   padding: 100px 8%;
@@ -729,4 +739,14 @@ footer p {
   .hero {
     padding-top: 90px;
   }
+}
+@media (max-width: 768px) {
+    section {
+        padding-top: 50px;  /* lebih kecil biar naik ke atas */
+        padding-bottom: 50px;
+    }
+
+    .hero {
+        padding-top: 120px; /* tetap lebih besar karena navbar */
+    }
 }
